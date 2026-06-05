@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/styles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Romanesco&family=Syne+Mono&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.13.2/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <title>Panic Pantry</title>
+</head>
+<body>
+    <div class="container">
+    <header><h1>AI recipe ingredients swapper</h1>
+    <h2>Oops, you're out of ingredients for your recipe? We're here to help! </h2></header> 
+    <main>
+        <div class="form-wrapper">
+        <form id="poem-generator-form">
+            <input type="text" placeholder="enter the ingredient in your recipe to swap for" 
+            autofocus
+            required
+            autocomplete="off"
+            class="input"
+            id="user-instructions"/>
+            <input type="submit" class="submit-button"/>
+
+        </form>
+        <div class="hint">i.e. eggs in pancake; cream in cake</div>
+
+        </div>
+<div class="poem hidden" id="poem">
+    
+</div>
+    </main> 
+    <script src="src/index.js"></script>
+    <footer>this AI project was coded by <a href="https://github.com/Devfection">Arletta Niedzwiedz</a> and <a href="https://github.com/Devfection/poem-generator"> open-sourced on GitHub</a> and <a href="">hosted on Render</a></footer>
+</div>
+</body>
+</html>
