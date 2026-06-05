@@ -62,6 +62,12 @@ form{
    color: black;
 }
 .submit-button{
+    background: linear-gradient(
+    225deg,   #9aa58b 0%,
+    #6b705c 12%,
+    #55604a 55%,
+    #394233 100%
+       );
    margin-left: 10px; 
    background-color:#6b705c;
    color:#f2f4ffff; 
@@ -69,6 +75,15 @@ form{
    border-radius: 20px;
    padding: 14px 24px;
    font-size: 16px;
+}
+.submit-button:hover {
+    background: linear-gradient(
+        225deg,
+        #394233 0%,
+        #55604a 45%,
+        #6b705c 88%,
+        #9aa58b 100%
+    );
 }
 .poem{
    font-family: "romanesco", cursive;
